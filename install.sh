@@ -3,4 +3,4 @@ sudo add-apt-repository ppa:neovim-ppa/unstable -y
 sudo apt-get update -y
 sudo apt-get install neovim -y
 
-ln -s ./.config/* ~/.config/
+ln ./.config/* ~/.config/
