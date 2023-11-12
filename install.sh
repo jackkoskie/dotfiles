@@ -10,3 +10,10 @@ git clone https://github.com/NvChad/NvChad ~/.config/nvim --depth 1
 
 # Setup ni
 npm install -g @antfu/ni
+
+# Setup tmux
+git clone https://github.com/tmux/tmux.git
+cd tmux
+sh autogen.sh
+./configure
+make && sudo make install
