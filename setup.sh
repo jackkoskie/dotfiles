@@ -16,4 +16,4 @@ git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 
 # Copy dotfiles
 git clone https://github.com/jackkoskie/dotfiles.git ~/dotfiles
-cp ~/dotfiles/ ~/ -r
+cp ~/dotfiles/* ~/ -r
