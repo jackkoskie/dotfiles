@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# Install Zsh
+sudo apt install zsh -y
+chsh -s $(which zsh)
+
 # Install Oh My Zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
@@ -16,4 +20,5 @@ git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 
 # Copy dotfiles
 git clone https://github.com/jackkoskie/dotfiles.git ~/dotfiles
+sudo apt install stow -y
 stow -t ~ .
